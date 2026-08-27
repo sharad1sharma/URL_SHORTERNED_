@@ -1,6 +1,7 @@
-// Use Flask directly unless we're already served by Flask (port 5000).
-// This covers: file:// open, VS Code Live Server (port 5500), and any other dev server.
-const API = "http://localhost:5000/api";
+// Automatically detect whether we are running locally (VS Code Live Server/file) or in production on Vercel
+const isLocalDevServer = window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1";
+const isServedByBackend = window.location.port === "5000" || (!isLocalDevServer && window.location.protocol.startsWith("http"));
+const API = isServedByBackend ? "/api" : "http://localhost:5000/api";
 
 const urlInput = document.getElementById("urlInput");
 const shortenBtn = document.getElementById("shortenBtn");

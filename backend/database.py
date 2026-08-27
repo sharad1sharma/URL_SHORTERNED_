@@ -1,12 +1,21 @@
 import sqlite3
 import csv
+import os
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent
-DB_PATH = BASE_DIR / "database" / "urls.db"
-CSV_PATH = BASE_DIR / "database" / "urls.csv"
+
+# Support serverless / read-only environments like Vercel
+if os.environ.get("VERCEL") or os.environ.get("AWS_LAMBDA_FUNCTION_NAME"):
+    DB_DIR = Path("/tmp/database")
+else:
+    DB_DIR = BASE_DIR / "database"
+
+DB_PATH = DB_DIR / "urls.db"
+CSV_PATH = DB_DIR / "urls.csv"
 
 def get_connection():
+    DB_DIR.mkdir(parents=True, exist_ok=True)
     connection = sqlite3.connect(DB_PATH)
     connection.row_factory = sqlite3.Row
     return connection
