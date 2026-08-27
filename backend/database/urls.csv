@@ -1,0 +1,15 @@
+id,original_url,short_code,created_at,updated_at,click_count
+1,https://www.whatsapp.com/,zEYfT6,2026-08-23T13:43:39+00:00,2026-08-24T18:04:03+00:00,1
+2,https://www.youtube.com/,KfBjh4,2026-08-23T14:10:58+00:00,2026-08-23T14:10:58+00:00,0
+3,https://in.linkedin.com/,5oMAJ1,2026-08-23T14:24:26+00:00,2026-08-23T14:24:26+00:00,0
+4,https://example.com,cDuoYt,2026-08-23T18:06:17+00:00,2026-08-23T18:06:17+00:00,2
+5,https://example.com,D5seQo,2026-08-23T18:07:58+00:00,2026-08-23T18:07:58+00:00,2
+6,https://www.kaggle.com/datasets/harshadapatil31/student-performance-and-study-habits-dataset/data,RTEBX1,2026-08-23T18:11:49+00:00,2026-08-23T18:11:49+00:00,3
+7,http://localhost:5000,1pyDa1,2026-08-23T18:13:35+00:00,2026-08-23T18:13:35+00:00,5
+8,https://chatgpt.com/,SUX3ZB,2026-08-23T18:15:33+00:00,2026-08-23T18:15:33+00:00,2
+9,https://supabase.com/dashboard/project/htbfgvrjbftkxgjnzhhr/auth/users,PKG8IW,2026-08-23T18:25:04+00:00,2026-08-23T18:25:04+00:00,4
+10,https://www.youtube.com/watch?v=3eiK7eP1dzA&list=RDaE4FXyWYh9Y&index=4,4AblrZ,2026-08-24T18:01:30+00:00,2026-08-24T18:01:30+00:00,2
+11,http://localhost:5000/zEYfT6,nflsit,2026-08-24T18:04:15+00:00,2026-08-24T18:04:15+00:00,2
+12,http://localhost:5000/RTEBX1,zp8yxH,2026-08-24T18:26:29+00:00,2026-08-24T18:26:29+00:00,2
+13,https://www.youtube.com/watch?v=hBMpEHmFjsA&list=RDhBMpEHmFjsA&start_radio=1,8i0Q4u,2026-08-25T09:19:29+00:00,2026-08-25T09:19:29+00:00,2
+14,https://www.youtube.com/watch?v=i_yT6CpUOTk&t=899s,eHvx7p,2026-08-25T09:21:39+00:00,2026-08-25T09:21:39+00:00,2
