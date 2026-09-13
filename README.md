@@ -56,6 +56,11 @@ python app.py
 
 Then open:
 
+-> Screenshot:-
+
+     <img width="1498" height="892" alt="Screenshot 2026-08-27 151454" src="https://github.com/user-attachments/assets/2f626fd8-dd48-4555-afde-ede66a36871c" />
+
+
 `http://localhost:5000`
 
 The Flask server now serves both the website and the short-link redirects. Do not open `frontend/index.html` as a file if you want Open URL to work reliably.
